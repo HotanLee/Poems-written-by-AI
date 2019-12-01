@@ -4,3 +4,5 @@
 - 了解了transfomer框架及基于transfomer的GPT和BERT，双向LSTM实现的ELMo，预训练很重要。用微调来应对不同的下游任务。
 ## 2019年11月17日
 - 搞出来了Keras里的VGG16模型，知道什么叫AI(Artificial Idot)
+## 2019年12月1日
+- 找到一个好玩的东西[Tensorflow2.0](https://github.com/dragen1860/Deep-Learning-with-TensorFlow-book)
