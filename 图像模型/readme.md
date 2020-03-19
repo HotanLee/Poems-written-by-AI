@@ -1,6 +1,6 @@
 # 图像模型部分
 ## 实体分类
-- IMG_Pre：已经训练好的模型
+- IMG_Pre：已经训练好的模型（未上传）
 - entity_train_figure：训练中的准确率
 - load_img：用于载入训练集
 - img_preprocess：对输入模型中的图片进行预处理
@@ -8,7 +8,7 @@
 - entity_model：最终模型使用
 - emotion：情感分类
 ## 情感分类
-- EMOI_Pre：已经训练好的模型
+- EMOI_Pre：已经训练好的模型（未上传）
 - emoi_train_figure：训练中的准确率
 - emoi_model_train：模型训练代码
 - emoi_model：最终模型使用
