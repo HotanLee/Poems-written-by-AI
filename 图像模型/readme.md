@@ -13,7 +13,7 @@
 - emoi_model_train：模型训练代码
 - emoi_model：最终模型使用
 ## 模型使用方法：
-1. 确保tensorflow已安装
+1. 安装tensorflow2.0
 2. 打开entity_model.py/emoi_model.py，将path更改为图片地址
 3. run
 ## 模型训练方法：
