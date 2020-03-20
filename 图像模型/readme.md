@@ -12,7 +12,11 @@
 - emoi_train_figure：训练中的准确率
 - emoi_model_train：模型训练代码
 - emoi_model：最终模型使用
-## 使用方法：
-1. 确保相关库已安装
+## 模型使用方法：
+1. 确保tensorflow已安装
 2. 打开entity_model.py/emoi_model.py，将path更改为图片地址
+3. run
+## 模型训练方法：
+1. 安装相关库
+2. 打开xxx_train_model.py，将root改位训练集地址
 3. run
