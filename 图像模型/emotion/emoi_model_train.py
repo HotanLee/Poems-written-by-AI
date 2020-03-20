@@ -35,7 +35,7 @@ def img_train_preprocess(x, y):
 
     return x, y
 
-root = 'G:/dataset/GAPED_2/emotion2'
+root = ''
 batchsz = 64
 # training dataset
 images, labels, table = load_image(root, 0.8, 1, mode='train')
@@ -78,6 +78,7 @@ check_point = tf.keras.callbacks.ModelCheckpoint(
     save_weights_only=True,
     save_freq=3,
 )
+
 if os.path.exists(weights_path):
     newnet.load_weights(weights_path)
     print("checkpoint_loaded")
