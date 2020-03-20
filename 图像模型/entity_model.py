@@ -13,7 +13,7 @@ name2table=['乌鸦', '乡村', '亭子', '兔', '兰花',
             '鸭', '鸳鸯', '鸿雁',
             ]  # total 38
 
-path='G:/dataset/picture_test/犬与落叶.jpg'
+path=''  # the path of test image
 x = img_preprocess(path)
 prediction = model.predict(x)
 # result = name2table[np.argmax(prediction)]
